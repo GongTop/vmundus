@@ -22,7 +22,7 @@ $("a#governor_link:contains('Greetings, President')").text('환영합니다, 대
 $("input#search_input").attr("placeholder","검색");
 $("p#search > abbr").attr("title","검색");
 $("a#logout > abbr").attr("title","로그아웃");
-$("div#user_info > p#usr_setting").html('<a href="settings"><span class="glyphicon glyphicon-wrench"></span>설정</a>');
+$("p#usr_setting").html('<a href="settings"><span class="glyphicon glyphicon-wrench"></span>설정</a>');
 $("div#economystat > p#econ_head").text('제품 가격 현황');
 
 if(location.toString().match(/^https:\/\/vmundus\.com\/en\/calculator/)) {
