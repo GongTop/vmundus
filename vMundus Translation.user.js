@@ -7,7 +7,7 @@
 // @include			https://vmundus.com/en
 // @grant			none
 // @noframes
-// @downloadURL		https://github.com/GongTop/vmundus/blob/master/vMundus%20Translation.user.js
+// @downloadURL https://github.com/GongTop/vmundus/blob/master/vMundus%20Translation.user.js
 // ==/UserScript==
 
 $("li#economy").html('경제<ul class="submenu"><a href="calculator"><li class="subli">계산기</li></a><a href="companies"><li class="subli">공장</li></a><a href="company_market"><li class="subli">공장 시장</li></a><a href="corporations"><li class="subli">기업</li></a><a href="currency_exchange"><li class="subli">환전소</li></a><a href="gold_market"><li class="subli">골드 시장</li></a><a href="houses"><li class="subli">하우스</li></a><a href="job_offers"><li class="subli">직업 시장</li></a><a href="product_market"><li class="subli">제품 시장</li></a><a href="warehouse"><li class="subli">창고</li></a><a href="work"><li class="subli">일하기</li></a>');
