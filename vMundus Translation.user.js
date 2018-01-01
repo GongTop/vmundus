@@ -22,6 +22,11 @@ $("a#governor_link:contains('Greetings, President')").text('환영합니다, 대
 $("input#search_input").attr("placeholder","검색");
 $("p#search > abbr").attr("title","검색");
 $("a#logout > abbr").attr("title","로그아웃");
-
+$("div#user_info > p#usr_setting").html('<a href="settings"><span class="glyphicon glyphicon-wrench"></span>설정</a>');
 $("div#economystat > p#econ_head").text('제품 가격 현황');
-//$("div#user_img").after('<abbr title="btn"><p id="manage_battles"><a href="manage_battles"><span class="glyphicon glyphicon-wrench"></span>전투 설정</a></p>');
+
+if(location.toString().match(/^https:\/\/vmundus\.com\/en\/calculator/)) {
+    $("div#container > p#calc_head").text("계산기");
+    $("div#container > p#calculate").text("계산");
+    $("div#energy_types_menu_div > p#etmd_head").text("에너지 가격을 계산하는 데 사용되는 발전소 :");
+}
