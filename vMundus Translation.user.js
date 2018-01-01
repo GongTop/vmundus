@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name			vMundus Translation
-// @version			0.0.1
+// @version			0.1
 // @description		Translation to vMundus web browser game
 // @author			Gong
 // @match			https://vmundus.com/*
