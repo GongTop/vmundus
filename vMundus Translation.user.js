@@ -5,8 +5,6 @@
 // @author			Gong
 // @match			https://vmundus.com/*
 // @include			https://vmundus.com/en
-// @grant			none
-// @noframes
 // @downloadURL			https://github.com/GongTop/vmundus/blob/master/vMundus%20Translation.user.js
 // ==/UserScript==
 
