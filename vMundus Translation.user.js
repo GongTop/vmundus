@@ -29,4 +29,7 @@ if(location.toString().match(/^https:\/\/vmundus\.com\/en\/calculator/)) {
     $("div#container > p#calc_head").text("계산기");
     $("div#container > p#calculate").text("계산");
     $("div#energy_types_menu_div > p#etmd_head").text("에너지 가격을 계산하는 데 사용되는 발전소 :");
+    $("p.price_lbl").text("가격");
+    $("p.calc_price_lbl").text("계산 된 가격");
+    $("p.depends_lbl").text("생산에 필요한 제품:");
 }
