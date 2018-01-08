@@ -19,7 +19,7 @@ $("li#store").html('더보기<ul class="submenu"><a href="market"><li class="sub
 //위 함수에 <!--★//--> 부분에 <!--★//-->을 지우고 보내드린 소스 입력
 $("a#message > abbr").attr("title","메세지");
 $("a#notification > abbr").attr("title","알림");
-$("a#governor_link:contains('Greetings, President')").text('환영합니다, 대통령님');
+$("a#governor_link:contains('Greetings')").text('국가 관리');
 $("input#search_input").attr("placeholder","검색");
 $("p#search > abbr").attr("title","검색");
 $("a#logout > abbr").attr("title","로그아웃");
